@@ -499,14 +499,14 @@
     <button class="close-btn" onclick="toggleSection(null)">← CLOSE</button>
   </div>
 
-  <!-- SECTION: BIOGRAPHY -->
+    <!-- SECTION: BIOGRAPHY -->
   <div class="section-content" id="section-biography" style="--accent:#22aa6644">
     <h2 class="section-header" style="color:#22aa66; border-top-color:#22aa6644">BIOGRAPHY</h2>
-    <p style="margin-bottom:20px">Matthew Brown is an award-winning audio and video producer with a passion for original storytelling and creative experimentation. Based in Brooklyn, New York, he has spent nearly a decade at HubSpot concepting, directing, and scaling standout content across audio and video.</p>
+    <p style="margin-bottom:20px">Matthew Brown is an award-winning audio and video producer based in Brooklyn, New York. </p> He's spent over a decade building and scaling original IP. That's a fancy way to say creative director. </p>
     <div class="bio-pull">"He believes the best content comes from curiosity, not formulas."</div>
-    <p style="margin-bottom:20px">As lead producer, he built shows including <em style="color:#c9a96e">The Science of Scaling</em>, <em style="color:#c9a96e">The Hustle Daily Show</em>, <em style="color:#c9a96e">The Growth Show</em>, and <em style="color:#c9a96e">Weird Work</em> — programs regularly featured on Apple Podcasts, Spotify, and in The New York Times.</p>
-    <p style="margin-bottom:20px">A graduate of the Salt Institute for Documentary Studies in Portland, Maine, his roots are in documentary audio — the kind of storytelling where the microphone disappears and something honest comes through. At Salt, he studied alongside NPR veterans and produced <em style="color:#c9a96e">Sovereign</em>, a four-part documentary about Maine tribal sovereignty.</p>
-    <p style="margin-bottom:20px">Beyond the studio, he explores AI-generated media, builds automation tools, and develops new YouTube channels. His work on <em style="color:#c9a96e">Business Explains the World</em> hit 4.4 million views in its first two months.</p>
+    <p style="margin-bottom:20px">He's the mind behind <em style="color:#c9a96e">Weird Work</em>, <em style="color:#c9a96e">The Science of Scaling YouTube channel</em>, <em style="color:#c9a96e">The Growth Show</em>, and <em style="color:#c9a96e">The Hustle Daily Show</em> — featured in Apple Podcasts, Spotify, and The New York Times.</p>
+    <p style="margin-bottom:20px">And he knows you're wondering: yes, he's college educated. A graduate of the Salt Institute for Documentary Studies in Portland, Maine.</p>
+    <p style="margin-bottom:20px"></p>
     <button class="close-btn" onclick="toggleSection(null)">← CLOSE</button>
   </div>
 
