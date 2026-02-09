@@ -228,17 +228,6 @@
   .footer-links a { color: #555; text-decoration: none; font-family: 'Press Start 2P', monospace; font-size: 7px; transition: color 0.2s; }
   .footer-links a:hover { color: #c9a96e; }
 
-  /* BIO PULL QUOTE */
-  .bio-pull {
-    font-size: 24px;
-    color: #c9a96e;
-    font-style: italic;
-    margin: 30px 0;
-    padding-left: 16px;
-    border-left: 3px solid rgba(201,169,110,0.3);
-    line-height: 1.5;
-  }
-
   /* PHOTO GRID PLACEHOLDER */
   .photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-top: 15px; }
   .photo-cell {
@@ -466,14 +455,9 @@
       <p>Live cold calling demos, tactical sales frameworks, and raw conversations with CROs from billion-dollar companies.</p>
     </div>
     <div class="item" style="border-left-color:#4488ff33">
-      <h3>Business Explains the World</h3>
-      <div class="item-meta">Dynamo · 2025</div>
-      <p>A new channel that hit 4.4 million views in its first two months. Business storytelling at scale.</p>
-    </div>
-    <div class="item" style="border-left-color:#4488ff33">
-      <h3>Producer Matthew Tries Cold Calling</h3>
-      <div class="item-meta">Featured in HubSpot Blog</div>
-      <p>I stepped in front of the camera to try selling pizza over the phone. I froze. I learned. The framework actually works.</p>
+      <h3>The Hustle — YouTube</h3>
+      <div class="item-meta">HubSpot Media · YouTube Channel</div>
+      <p>Why American Trucks are So Big — 650,000+ views. Other videos include The Wild Logistics of New York's Christmas Tree Economy.</p>
     </div>
     <button class="close-btn" onclick="toggleSection(null)">← CLOSE</button>
   </div>
