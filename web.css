@@ -228,6 +228,17 @@
   .footer-links a { color: #555; text-decoration: none; font-family: 'Press Start 2P', monospace; font-size: 7px; transition: color 0.2s; }
   .footer-links a:hover { color: #c9a96e; }
 
+  /* BIO PULL QUOTE */
+  .bio-pull {
+    font-size: 24px;
+    color: #c9a96e;
+    font-style: italic;
+    margin: 30px 0;
+    padding-left: 16px;
+    border-left: 3px solid rgba(201,169,110,0.3);
+    line-height: 1.5;
+  }
+
   /* PHOTO GRID PLACEHOLDER */
   .photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-top: 15px; }
   .photo-cell {
@@ -455,9 +466,14 @@
       <p>Live cold calling demos, tactical sales frameworks, and raw conversations with CROs from billion-dollar companies.</p>
     </div>
     <div class="item" style="border-left-color:#4488ff33">
-      <h3>The Hustle — YouTube</h3>
-      <div class="item-meta">HubSpot Media · YouTube Channel</div>
-      <p>Why American Trucks are So Big — 650,000+ views. Other videos include The Wild Logistics of New York's Christmas Tree Economy.</p>
+      <h3>Business Explains the World</h3>
+      <div class="item-meta">Dynamo · 2025</div>
+      <p>A new channel that hit 4.4 million views in its first two months. Business storytelling at scale.</p>
+    </div>
+    <div class="item" style="border-left-color:#4488ff33">
+      <h3>Producer Matthew Tries Cold Calling</h3>
+      <div class="item-meta">Featured in HubSpot Blog</div>
+      <p>I stepped in front of the camera to try selling pizza over the phone. I froze. I learned. The framework actually works.</p>
     </div>
     <button class="close-btn" onclick="toggleSection(null)">← CLOSE</button>
   </div>
@@ -483,7 +499,10 @@
     <button class="close-btn" onclick="toggleSection(null)">← CLOSE</button>
   </div>
 
- producer with a passion for original storytelling and creative experimentation. Based in Brooklyn, New York, he has spent nearly a decade at HubSpot concepting, directing, and scaling standout content across audio and video.</p>
+  <!-- SECTION: BIOGRAPHY -->
+  <div class="section-content" id="section-biography" style="--accent:#22aa6644">
+    <h2 class="section-header" style="color:#22aa66; border-top-color:#22aa6644">BIOGRAPHY</h2>
+    <p style="margin-bottom:20px">Matthew Brown is an award-winning audio and video producer with a passion for original storytelling and creative experimentation. Based in Brooklyn, New York, he has spent nearly a decade at HubSpot concepting, directing, and scaling standout content across audio and video.</p>
     <div class="bio-pull">"He believes the best content comes from curiosity, not formulas."</div>
     <p style="margin-bottom:20px">As lead producer, he built shows including <em style="color:#c9a96e">The Science of Scaling</em>, <em style="color:#c9a96e">The Hustle Daily Show</em>, <em style="color:#c9a96e">The Growth Show</em>, and <em style="color:#c9a96e">Weird Work</em> — programs regularly featured on Apple Podcasts, Spotify, and in The New York Times.</p>
     <p style="margin-bottom:20px">A graduate of the Salt Institute for Documentary Studies in Portland, Maine, his roots are in documentary audio — the kind of storytelling where the microphone disappears and something honest comes through. At Salt, he studied alongside NPR veterans and produced <em style="color:#c9a96e">Sovereign</em>, a four-part documentary about Maine tribal sovereignty.</p>
@@ -649,8 +668,6 @@ function toggleSection(id) {
           var blob = new Blob([data], {type: mime});
           var url = URL.createObjectURL(blob);
           document.getElementById('hero-img').src = url;
-          var bioImg = document.getElementById('bio-img');
-          if(bioImg) bioImg.src = url;
         }).catch(function(){
           tryNext(i+1);
         });
